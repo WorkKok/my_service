@@ -7,9 +7,8 @@
 Разработать защищённый веб-сервис на FastAPI, упаковать в Docker, развернуть в Яндекс Облаке (ВМ) и в локальном Minikube.
 Результаты
 1. GitHub репозиторий
-
-[https://github.com/DAVID704456/fastapi-secure-lab](https://github.com/WorkKok/my_service/)
-2. Сервис в Яндекс Облаке (НА ДАННЫЙ МОМЕНТ ОТКЛЮЧЕН И ИМЕЕТ ДИНАМИЧЕСКИЙ АЙПИ)
+[https://github.com/WorkKok/my_service/](https://github.com/WorkKok/my_service/)
+2. Сервис в Яндекс Облаке
 
     Публичный IP: 89.169.137.105
     Порт: 80
@@ -50,7 +49,7 @@ Terraform (Yandex Cloud)
 
     1. Установите Terraform.
 
-    2. Заполните переменные.
+    2. Заполните переменные, добавьте ключи авторизации
 
     3. terraform apply
 
