@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: myapp-service
+  namespace: myapp-namespace
+spec:
+  selector:
+    app: myapp                       # должно совпадать с метками в deployment
+  ports:
+    - protocol: TCP
+      port: 80                       # порт, на котором сервис доступен внутри кластера
+      targetPort: 80               # порт контейнера
+      nodePort: 30180                # если используем NodePort (диапазон 30000-32767)
+  type: NodePort
