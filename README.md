@@ -31,12 +31,12 @@ screenshots_lab
 Инструкция по развёртыванию
 Требования
 
-    Установленные:  Docker, Minikube, kubectl, Python 3.13+.
+    Установленные:  Docker, Terraform, Minikube, kubectl, Python 3.13+.
 
 1. Клонирование репозитория
 
 git clone https://github.com/DAVID704456/my_service.git
-cd fastapi-secure-lab/secure-app
+cd my_service
 
 ## Локальный запуск
 ```bash
@@ -53,7 +53,8 @@ Terraform (Yandex Cloud)
 
     3. terraform apply
 
-Kubernetes (Minikube)
+Kubernetes (Minikube):
 
-kubectl apply -f k8s/
+kubectl apply -f k8s/  
+
 minikube service my-service -n my-app
